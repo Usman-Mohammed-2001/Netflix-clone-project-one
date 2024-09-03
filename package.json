@@ -1,5 +1,5 @@
 {
-
+ "homepage": "https://Usman-Mohammed-2001.github.io/Netflix-clone-project-one",
  "name": "netflix-clone-project",
  "version": "0.1.0",
  "private": true,
@@ -21,7 +21,8 @@
  },
  "scripts": {
   "start": "react-scripts start",
-  
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
   "build": "react-scripts build",
   "test": "react-scripts test",
   "eject": "react-scripts eject"
@@ -47,5 +48,7 @@
  "devDependencies": {
   "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
   "gh-pages": "^6.1.1"
- }
+ },
+ "json.schemaValidation": false
+
 }
