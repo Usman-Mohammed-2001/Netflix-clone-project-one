@@ -1,5 +1,5 @@
 {
- "homepage": "https://Usman-Mohammed-2001.github.io/Netflix-clone-project-one",
+"homepage": "https://Usman-Mohammed-2001.github.io/Phase-one-nettflex-clone ",
  "name": "netflix-clone-project",
  "version": "0.1.0",
  "private": true,
@@ -48,7 +48,7 @@
  "devDependencies": {
   "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
   "gh-pages": "^6.1.1"
- },
- "json.schemaValidation": false
+ }
+
 
 }
